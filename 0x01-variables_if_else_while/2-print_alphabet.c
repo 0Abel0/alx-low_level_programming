@@ -8,8 +8,12 @@
  */
 int main(void)
 {
-for (int x = 'a'; x <= 'z'; x++) {
-putchar(x);
+int c = 'a';
+while (c <= 'z')
+{
+putchar(c);
+c++;
 }
+putchar('\n');
 return (0);
 }
