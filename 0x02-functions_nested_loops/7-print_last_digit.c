@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _abs - checks if n is positive, negative, or zero
- * Return: absolute value of parameter.
+ * print_last_digit - prints last digit
+ * Return: last digit.
  * @x: parameter
  */
 int print_last_digit(int x)
