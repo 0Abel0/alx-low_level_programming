@@ -6,14 +6,17 @@
  */
 int print_last_digit(int x)
 {
+int nv;
 if (x < 0)
 {
-_putchar(-1 * (x % 10));
-return (-1 * (x % 10));
+nv = -1 * (x % 10);
+_putchar(nv + '0');
+return (nv);
 }
 else
 {
-_putchar(x % 10);
-return (-1 * (x % 10));
+nv = x % 10;
+_putchar(nv);
+return (nv);
 }
 }
